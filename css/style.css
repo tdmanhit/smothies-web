@@ -1,0 +1,448 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-size: 16px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+}
+
+
+
+/* header */
+header {
+    background-color: #c0f4f4;
+    width: 100%;    
+    margin: auto;
+    height: 68px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.row-header {
+    width: 1200px;
+    margin: auto;
+}
+
+.logo-header {
+    float: left;
+    width: 30%;
+}
+
+.logo-header a.DuaHau {
+    font-size: 26px;
+    font-weight: 800;
+    color: #f94848;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.logo-header a.it {
+    color: #a3e261;
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.logo-header img {
+    width: 40px;
+    display: inline;
+}
+
+.menu-header {
+    width: 65%;
+    float: right;
+}
+
+.menu-header li{
+    display: inline-block;
+}
+
+.menu-header li a{
+    height: 68px;
+    line-height: 68px;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    display: inline-block;
+    padding:0 20px;
+}
+
+li.menu-menu li{
+    display: none;
+}
+
+
+.menu-header  li:hover a{
+    background-color: #a3e261;
+    color: #f94848;
+    font-weight: 600;
+}
+
+
+
+
+
+/* slider */
+
+
+#slider {
+    margin-top: 68px;
+    padding-top: 50%;
+    width: 100%;
+    /* background: url('/background-slider.png') top center/cover no-repeat;  */
+    background: url('file:///C:/Users/hsngo/Desktop/Websites/watermelon-web/img/background-slider.png') top center/cover no-repeat; 
+
+    position: relative;
+}
+
+.slider-text-1 {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.slider-text-1 .text-slider {
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+    font-weight: 500;
+    color: orange;
+}
+
+.slider-text-2 {
+    position: absolute;
+    top: 200px;
+    left: 300px;
+}
+
+.slider-text-2 .text-slider {
+    font-family: 'Caveat', cursive;
+    font-size: 100px;
+    font-weight: 500;
+    color: red;
+}
+
+
+.sale-slider {
+    max-width: 600px;
+    position: absolute;
+    background-color: #fff0f8;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.row-sale-slider {
+    border-radius: 10px;
+    border: solid 4px forestgreen;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.sale-slider .text-1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    color: forestgreen;
+    letter-spacing: 3px;
+    padding-bottom: 15px;
+}
+
+.sale-slider .text-2 {
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.sale-slider .text-3 {
+    font-size: 20px;
+    font-family: 'Big Shoulders Display', cursive;
+    padding-bottom: 20px;
+}
+
+.code-button {
+    height: 60px;
+    width: 250px;
+    font-family: 'Bebas Neue', cursive;
+    border-radius: 80px;
+    border-style: none;
+    font-size: 18px;
+    color: lemonchiffon;
+    font-weight: 800;
+    background-color:limegreen;
+}
+
+
+
+/* about me */
+
+
+
+#about-me {
+    width: 1200px;
+    margin: auto;
+    padding: 100px;
+}
+
+.text-about-me {
+    text-align: center;
+}
+
+.text-about-me h1 {
+    font-size: 40px;
+    font-family: 'Caveat', cursive;
+    color: #f94848;
+    font-style: italic;
+    letter-spacing: 10px;
+    font-weight: 600;
+    padding-bottom: 50px;
+}
+
+.row-about-me {
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.about-me-text {
+    background-color: aqua;
+    border-radius: 15px;
+}
+.about-me-text h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+}
+
+
+/* menu */
+
+
+
+
+#menu {
+    width: 100%;
+    background-color: #f8e4dc;
+}
+
+.text-menu {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.text-menu img {
+    display: inline;
+    width: 120px;
+}
+
+.selection-menu {
+    width: 60%;
+    padding: 30px 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+}
+
+.container-menu{
+    width: 1200px;
+    margin: auto;
+}
+.row-menu {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.find-menu {
+    padding: 0 10px;
+}
+
+.species-find {
+    padding-bottom: 20px;
+}
+
+.name-species {
+    border-bottom: black 1px dashed;
+    padding-bottom: 10px;
+}
+.name-species h1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+.menu-species {
+    text-align: left;
+    padding: 20px 0;
+    border-bottom: black 1px dashed;
+
+}
+
+.item-find {
+    padding-left: 10px;
+    line-height: 36px;
+    width: 90%;
+    background-color:khaki;
+    margin-bottom: 24px;
+}
+
+.item-find label {
+    font-size: 18px;
+}
+
+.item-find input {
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    -webkit-appearance: none;
+    background-color: burlywood;
+}
+
+.items-menu {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.item-menu {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 100px ;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+
+.item-menu img{
+    margin-top: -80px;
+    padding-bottom: 20px;
+}
+.item-menu h1 {
+    font-size: 30px;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.item-menu h2 {
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.item-menu button {
+    font-size: 20px;
+    height: 40px;
+    width: 150px;
+    border-radius: 50px;
+    border-style: none;
+    font-weight: bold;
+    background-color: orange;
+}
+
+.item-menu button:hover {
+    color: white;
+    background-color: teal;
+}
+
+.more-menu {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+/* contact */
+
+
+
+
+
+/* footer */
+
+#footer {
+    width: 100%;
+    background-color: rgb(13, 207, 241);
+}
+
+.row-footer {
+    padding: 30px 0 0 0;
+    width: 1200px ;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border-bottom: solid #000;
+}
+
+.logo-footer {
+    width: 200px;
+}
+
+.fastaccess-footer {
+    
+}
+
+.fastaccess-footer li{
+    list-style-type: none;
+}
+
+.fastaccess-footer li a{
+    font-size: 16px;
+    font-family: 'Odibee Sans', cursive;
+    line-height: 40px;
+    letter-spacing: 2px;
+
+}
+
+.information-footer h1 {
+    font-size: 16px;
+    font-family: 'Odibee Sans', cursive;
+    line-height: 40px;
+    letter-spacing: 2px;
+}
+.follow-footer i{
+    font-size: 30px;
+    padding-bottom: 30px;
+}
+
+.nocopy-footer {
+    padding:30px 0;
+    text-align: center;
+}
+
+.nocopy-footer h1{
+    font-family: 'Sigmar One', cursive;
+    font-size: 20px;
+}
